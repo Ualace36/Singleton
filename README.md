@@ -1,6 +1,6 @@
 About The Project
 
-Este projeto se trata da implementação prática dos modelos de estudados de Design Pattern. Temos aqui não somente a importancia de praticar a teoria dos padrões estudados, mas também desenvolver um material para futuras consultas.
+Este projeto se trata da implementação prática dos modelos estudados de Design Pattern. Temos aqui não somente a importancia de praticar a teoria dos padrões estudados, mas também desenvolver um material para futuras consultas.
 
 
 Designs Patterns
