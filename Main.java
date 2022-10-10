@@ -1,8 +1,12 @@
-package Singleton1;
+package Singleton2;
 
 public class Main {
     public static void main(String[] args) {
-        TabuleiroXadrez tabuleiroXadrez = TabuleiroXadrez.getInstance();
-        System.out.println("Imprima o local na memória" + tabuleiroXadrez);
+
+
+    TabuleiroXadrez tabuleiroXadrezI = TabuleiroXadrez.getInstance();
+    TabuleiroXadrez tabuleiroXadrezII = TabuleiroXadrez.getInstance();
+        System.out.println(tabuleiroXadrezI);
+        System.out.println(tabuleiroXadrezII);
     }
 }

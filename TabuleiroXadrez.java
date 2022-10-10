@@ -1,9 +1,12 @@
-package Singleton1;
+package Singleton2;
 
 public class TabuleiroXadrez {
-    private static TabuleiroXadrez instance = new TabuleiroXadrez();
-    private  TabuleiroXadrez(){}
-   static TabuleiroXadrez getInstance() {
+    //Nesse método o sistema não instancia de imediato
+    private static TabuleiroXadrez instance = null;
+    private TabuleiroXadrez(){}
+    static TabuleiroXadrez getInstance() {
+        if (instance == null)
+            instance = new TabuleiroXadrez();
         return instance;
     }
 
